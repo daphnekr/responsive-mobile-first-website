@@ -1,0 +1,99 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Eerste gele kolom met button*/
+.item1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 220, 65);
+}
+/*2e witte kolom met button en logo*/
+.item2{
+    width: 100%;
+    height: 150px;  
+}
+
+.mySlides{
+    width: 100%;
+    display: none;
+}
+/*Auto icoon en proefles*/
+.item4{
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.fas {
+    font-size: 50px;
+}
+.title{
+    font-size: 50px;
+}
+
+/*text bij proefles*/
+.item6 p{
+    padding: 30px 80px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+.button1{
+    text-align: center;
+    width: 70%;
+    height: 80px;
+    margin-left: 10%;
+    border: none;
+    background-color: rgb(255, 189, 65);
+    font-size: 50px;  
+}
+
+.item7{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.item9 p{
+    padding: 30px 80px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+.item10{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.item12 p{
+    padding: 30px 80px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+.video{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+/*@media only screen and (min-width: 768px){
+    .img-banner{
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px){
+    .img-banner{
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+}
