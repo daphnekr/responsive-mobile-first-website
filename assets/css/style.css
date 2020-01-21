@@ -1,30 +1,40 @@
-@media only screen and (max-width: 999px){
+@media (max-width: 999px){
+    html{
+        text-align: center;
+    }
     body{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     /*Eerste gele kolom met button*/
     .item1{
         width: 100%;
-        height: 120px;
+        height: 5rem;
         background-color: rgb(255, 220, 65);
     }
+
+    .info{
+        display: none;
+    }
     .dropdown {
+        text-align: left;
         overflow: hidden;
     }
     .dropbtn .fas{
+        text-align: left;
         font-size: 90px;
     }
     .dropdown .dropbtn { 
+        text-align: left;
         border: none;
         outline: none;
         color: white;
-        padding: 14px 16px;
+        padding: 1rem 1.6rem;
         background-color: inherit;
     }
     .dropdown-content a {
         float: none;
         color: black;
-        padding: 12px 16px;
+        padding: 1.2rem 1.6rem;
         display: block;
         text-align: left;
     }
@@ -32,102 +42,170 @@
         display: none;
         position: absolute;
         background-color: white;
-        min-width: 160px;
+        min-width: 16rem;
     }
     .dropdown:hover .dropdown-content {
         display: block;
-        cursor: pointer;
     }
     .item1 .dropdown .dropbtn .dropdown-content .fas{
-        font-size: 10px;
+        font-size: 1rem;
+    }
+    .item1 .dropdown .dropbtn .fas{
+        font-size: 3rem;
     }
 
     /*2e witte kolom met button en logo*/
     .item2{
         width: 100%;
-        height: 150px;  
+        height: 5rem;  
     }
     .item2 .dropdown .dropbtn .fas{
         color: grey;
+        font-size: 3rem;
+    }
+    .logo{
+        position: relative;
+        width: 40%;
     }
 
-    .mySlides{
+    .images{
         width: 100%;
-        display: none;
     }
     /*Auto icoon en proefles*/
     .item4{
-        padding-top: 30px;
+        text-align: left;
+        padding-top: 1rem;
         padding-left: 10%;
     }
     .fas {
-        font-size: 50px;
+        font-size: 2rem;
     }
     .title{
-        font-size: 50px;
+        font-size: 2rem;
     }
 
     /*text bij proefles*/
     .item6 p{
-        padding: 30px 80px 20px;
+        text-align: left;
+        padding: 1rem 5rem 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 1rem;
         color: #111;
-        line-height: 30px;
+        line-height: 1.3rem;
     }
 
     .button1{
         text-align: center;
         width: 70%;
-        height: 80px;
-        margin-left: 10%;
+        height: 5rem;
         border: none;
         background-color: rgb(255, 189, 65);
-        font-size: 50px;  
+        font-size: 2rem;  
     }
 
     .item7{
-        padding-top: 50px;
+        text-align: left;
+        padding-top: 1rem;
         padding-left: 10%;
     }
 
     .item9 p{
-        padding: 30px 80px 20px;
+        text-align: left;
+        padding: 1rem 5rem 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 1rem;
         color: #111;
-        line-height: 30px;
+        line-height: 1.3rem;
     }
 
     .item10{
-        padding-top: 50px;
+        text-align: left;
+        padding-top: 1rem;
         padding-left: 10%;
     }
 
     .item12 p{
-        padding: 30px 80px 20px;
+        text-align: left;
+        padding: 1rem 5rem 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 1rem;
         color: #111;
-        line-height: 30px;
+        line-height: 1.3rem;
     }
 
     .video{
         width: 100%;
-        height: 500px;
+        height: 20rem;
+    }
+    .item13{
+        display: none;
+    }
+    .item14{
+        display: none;
+    }
+    .item15{
+        display: none;
+    }
+    .item16{
+        display: none;
     }
 }
 
 
-@media only screen and (min-width: 1000px){
+@media (min-width: 1000px){
+
+    html{
+        text-align: center;
+    }
     .item1{
-        height: 30px;
-        background-color:  rgb(255, 220, 65);
+        width: 100%;
+        height: 1.3rem;
+        background-color: rgb(255, 220, 65);
     }
 
     .item2{
-        height: 130px;
+        width: 100%;
+        height: 7rem;  
     }
+    .images{
+        width: 90%;
+    }
+    
+    .item13{
+        text-align: left;
+        padding-top: 1rem;
+        padding-left: 10%;
+    }
+    .item14{
+        text-align: left;
+        padding-top: 1rem;
+        padding-left: 10%;
+    }
+    .item15{
+        text-align: left;
+        padding-top: 1rem;
+        padding-left: 10%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #displaynone
     .dropdown {
         display: none;
     }
@@ -149,9 +227,31 @@
     .item1 .dropdown .dropbtn .dropdown-content .fas{
         display: none;
     }
-
-    .mySlides{
-        
+    .item4{
+        display: none;
+    }
+    .item5{
+        display: none;
+    }
+    .item6{
+        display: none;
+    }
+    .item7{
+        display: none;
+    }
+    .item8{
+        display: none;
+    }
+    .item9{
+        display: none;
+    }
+    .item10{
+        display: none;
+    }
+    .item11{
+        display: none;
+    }
+    .item12{
         display: none;
     }
 
